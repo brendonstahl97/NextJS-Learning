@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Layout, { siteTitle } from "../components/layouts";
 import utilStyles from "../styles/utils.module.css";
+import { getSortedPostDate } from '../lib/posts';
 
 export default function Home() {
   return (
